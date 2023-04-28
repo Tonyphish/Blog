@@ -1,7 +1,7 @@
 .imagen {
     float: right;
     width: 30%;
-    background-color: #2d132c;
+    
 }
 
 html {
@@ -45,15 +45,18 @@ img {
 }
 
 .menu {
+    width: 75%;
     background: #c72c41;
     font-size: large;
 }
 
 .text {
+    width: 75%;
     background-color: #801336;
 }
 
 .text2 {
+    width: 75%;
     background-color: #801336;
 }
 
