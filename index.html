@@ -3,15 +3,36 @@
 
 <head>
     <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
     <link href="css/estilos.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="menu">
-        Menú: <b>Inicio</b> - <a href="contacto.html" target="_self"><u>Contacto</u></a> -
-        <a href="articulo1.html" target="_self"><u>Artículo</u></a>
-    </div>
-    <div class="img"><img class="imagen" src="img/blog.jpg"></div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Menú</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="articulo1.html">Artículo</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br>
+    <div><img class="imagen" src="img/blog.jpg"></div>
     <div class="text">
         <h1>Bienvenidos a mi blog</h1>
     </div>
